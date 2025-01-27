@@ -13,26 +13,30 @@
           to="/"
           class="block mb-3 text-xl md:text-2xl"
           @click="closeSidebar"
-          >Home</NuxtLink
         >
+          Home
+        </NuxtLink>
         <NuxtLink
           to="/sobre"
           class="block mb-3 text-xl md:text-2xl"
           @click="closeSidebar"
-          >Sobre</NuxtLink
         >
+          Sobre
+        </NuxtLink>
         <NuxtLink
           to="/projetos"
           class="block mb-3 text-xl md:text-2xl"
           @click="closeSidebar"
-          >Projetos</NuxtLink
         >
+          Projetos
+        </NuxtLink>
         <NuxtLink
           to="/contato"
           class="block mb-3 text-xl md:text-2xl"
           @click="closeSidebar"
-          >Contato</NuxtLink
         >
+          Contato
+        </NuxtLink>
       </div>
     </aside>
 
