@@ -3,7 +3,7 @@
     <aside
       :class="[
         'fixed top-0 left-0 h-screen bg-black text-white p-6 transition-transform duration-300 z-20',
-        isOpen ? 'translate-x-0' : '-translate-x-full',
+        sidebar.isOpen ? 'translate-x-0' : '-translate-x-full',
         'md:relative md:translate-x-0 md:w-[385px] md:pl-12',
       ]"
     >
@@ -42,7 +42,7 @@
 
     <button
       class="fixed z-50 p-2 text-white bg-black rounded top-4 left-4 md:hidden"
-      @click="isOpen = !isOpen"
+      @click="toggleSidebar"
     >
       ☰
     </button>
@@ -54,11 +54,7 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { useSidebar } from "@/composables/useSidebar";
 
-const isOpen = ref(false);
-
-const closeSidebar = () => {
-  isOpen.value = false;
-};
+const { sidebar, toggleSidebar, closeSidebar } = useSidebar();
 </script>

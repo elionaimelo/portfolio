@@ -135,10 +135,6 @@
 </template>
 
 <script lang="ts" setup>
-definePageMeta({
-  ssr: true,
-});
-
 const motionInitial = { opacity: 0, y: 50, scale: 0.98 };
 const motionEnter = {
   opacity: 1,

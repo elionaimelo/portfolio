@@ -40,9 +40,3 @@
     </div>
   </section>
 </template>
-
-<script lang="ts" setup>
-definePageMeta({
-  ssr: true,
-});
-</script>
