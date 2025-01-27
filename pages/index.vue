@@ -1,6 +1,5 @@
 <template>
   <div class="block md:flex">
-    <!-- Conteúdo principal (Texto) -->
     <div
       class="flex flex-col items-center justify-center p-6 md:p-10 md:w-1/2"
       v-motion

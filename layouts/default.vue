@@ -1,5 +1,5 @@
 <template>
-  <section class="flex min-h-screen">
+  <section class="flex min-h-screen overflow-hidden">
     <LayoutsSidebar />
 
     <main class="flex items-center justify-center w-full">
