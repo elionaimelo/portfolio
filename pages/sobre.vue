@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="h-full">
     <header class="text-center md:text-left">
       <p
         class="text-lg mt-9 sm:text-xl md:mt-0"

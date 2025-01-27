@@ -1,5 +1,5 @@
 <template>
-  <div class="block md:flex">
+  <div class="block overflow-hidden md:flex">
     <div
       class="flex flex-col items-center justify-center p-6 md:p-10 md:w-1/2"
       v-motion
@@ -30,7 +30,7 @@
           :enter="motionEnter"
           :leave="motionLeave"
         >
-          <strong><em>Desenvolvedor Frontend</em></strong> mora no
+          <strong><em>Desenvolvedor Frontend</em></strong> <br />que mora no
           <strong><em>Brasil</em></strong>
         </p>
 
@@ -60,7 +60,7 @@
       <img
         src="/assets/images/eli-hero-section.png"
         alt="Foto de Elionai Melo"
-        class="w-3/4 max-w-md md:max-w-lg lg:max-w-xl"
+        class="max-w-sm md:max-w-lg lg:max-w-xl"
         v-motion
         :initial="motionInitial"
         :enter="motionEnter"
