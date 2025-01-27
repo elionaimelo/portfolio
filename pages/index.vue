@@ -14,8 +14,8 @@
         :enter="motionEnter"
         :leave="motionLeave"
       >
-        Meu nome<br />
-        é
+        My name<br />
+        is
         <span class="font-black">
           Elionai <br />
           Melo...
@@ -30,15 +30,15 @@
           :enter="motionEnter"
           :leave="motionLeave"
         >
-          <strong><em>Desenvolvedor Frontend</em></strong> <br />que mora no
-          <strong><em>Brasil</em></strong>
+          <strong><em>Frontend Developer</em></strong> <br />based in
+          <strong><em>Brazil</em></strong>
         </p>
 
         <button
           class="w-full px-6 py-2 font-semibold text-white transition bg-black border border-black md:w-auto hover:bg-white hover:text-black"
           @click="callWhatsApp"
         >
-          Vamos conversar
+          Let's talk
         </button>
 
         <div
@@ -59,7 +59,7 @@
     <div class="flex justify-center mt-8 md:mt-0 md:w-1/2">
       <img
         src="/assets/images/eli-hero-section.png"
-        alt="Foto de Elionai Melo"
+        alt="Photo of Elionai Melo"
         class="max-w-sm md:max-w-lg lg:max-w-xl"
         v-motion
         :initial="motionInitial"

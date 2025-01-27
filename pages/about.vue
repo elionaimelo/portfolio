@@ -8,7 +8,7 @@
         :enter="motionEnter"
         :leave="motionLeave"
       >
-        Que bom receber sua visita!
+        It's great to have your visit!
       </p>
       <h1
         class="mt-3 text-3xl font-bold mb-9 sm:text-4xl md:text-5xl"
@@ -17,7 +17,7 @@
         :enter="motionEnter"
         :leave="motionLeave"
       >
-        Seja bem-vindo...
+        Welcome...
       </h1>
     </header>
 
@@ -25,7 +25,7 @@
       <div class="mb-1 text-center md:text-left md:mb-0">
         <img
           src="assets/images/img-sobre.png"
-          alt="Foto de Elionai Melo"
+          alt="Photo of Elionai Melo"
           class="mx-auto md:mx-0 md:max-w-[300px] lg:max-w-[400px] max-w-full h-auto"
           v-motion
           :initial="motionInitial"
@@ -48,8 +48,8 @@
           :enter="motionEnter"
           :leave="motionLeave"
         >
-          <strong><em>Desenvolvedor Frontend</em></strong> mora no
-          <strong><em>Brasil</em></strong>
+          <strong><em>Frontend Developer</em></strong> lives in
+          <strong><em>Brazil</em></strong>
         </p>
 
         <button class="underline">
@@ -87,7 +87,7 @@
         <div class="justify-between mt-6 md:flex">
           <UiBoxInforNumber
             number="10+"
-            text="Anos de experiência..."
+            text="Years of experience..."
             v-motion
             :initial="motionInitial"
             :enter="motionEnter"
@@ -95,7 +95,7 @@
           />
           <UiBoxInforNumber
             number="10+"
-            text="Projetos"
+            text="Projects"
             v-motion
             :initial="motionInitial"
             :enter="motionEnter"
@@ -112,9 +112,9 @@
         >
           Javascript | Vue.js | Vuex | Pinia | Typescript | GraphQL | SOLID |
           React.js | Next.js | Docker | GitLab | Microservices | API Rest | MVC
-          | SOLID | Clean Architecture | Design de Sistemas | Wordpress | MySQL
-          | PostgreSQL | MongoDB | NoSQL | Insomnia | Python | Cypress | Vitest
-          | Jest | SEO | Acessibilidade
+          | SOLID | Clean Architecture | System Design | Wordpress | MySQL |
+          PostgreSQL | MongoDB | NoSQL | Insomnia | Python | Cypress | Vitest |
+          Jest | SEO | Accessibility
         </div>
 
         <blockquote
@@ -125,8 +125,8 @@
           :leave="motionLeave"
         >
           <p>
-            "A tecnologia move o mundo e eu faço parte disso, desenvolvendo
-            soluções para problemas reais."
+            "Technology moves the world, and I am part of it, developing
+            solutions for real problems."
           </p>
         </blockquote>
       </div>

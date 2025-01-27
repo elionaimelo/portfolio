@@ -17,25 +17,25 @@
           Home
         </NuxtLink>
         <NuxtLink
-          to="/sobre"
+          to="/about"
           class="block mb-3 text-xl md:text-2xl"
           @click="closeSidebar"
         >
-          Sobre
+          About
         </NuxtLink>
         <NuxtLink
-          to="/projetos"
+          to="/projects"
           class="block mb-3 text-xl md:text-2xl"
           @click="closeSidebar"
         >
-          Projetos
+          Projects
         </NuxtLink>
         <NuxtLink
-          to="/contato"
+          to="/contact"
           class="block mb-3 text-xl md:text-2xl"
           @click="closeSidebar"
         >
-          Contato
+          Contact
         </NuxtLink>
       </div>
     </aside>
