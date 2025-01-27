@@ -2,7 +2,7 @@
   <section class="flex min-h-screen">
     <aside
       :class="[
-        'fixed top-0 left-0 h-screen bg-black text-white p-6 transition-transform duration-300',
+        'fixed top-0 left-0 h-screen bg-black text-white p-6 transition-transform duration-300 z-20',
         isOpen ? 'translate-x-0' : '-translate-x-full',
         'md:relative md:translate-x-0 md:w-[385px] md:pl-12',
       ]"

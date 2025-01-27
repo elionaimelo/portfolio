@@ -31,11 +31,13 @@ jobs:
 
       - name: Generate static site
         run: npm run generate
+        env:
+          BASE_URL: "/portfolio/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./.output/public
 
   deploy:
     environment:
