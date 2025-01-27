@@ -5,6 +5,6 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxt/icon', '@vueuse/motion/nuxt'],
   css: ['~/assets/css/main.scss'],
   app: {
-    baseURL: process.env.NODE_ENV === 'production' ? '/portfolio-elionai/' : '/',
+    baseURL: process.env.NODE_ENV === 'production' ? '/portfolio' : '/',
   },
 })
